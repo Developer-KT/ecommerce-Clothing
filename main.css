@@ -306,6 +306,7 @@ a {
 }
 .featured-products h1 {
   text-align: center;
+  font-size: 35px;
 }
 .featured-products p {
   text-align: center;
@@ -718,7 +719,71 @@ a {
     margin-bottom: 0;
   }
 }
-/* -------------------------------------------------- */
+/* ---------------------------------- Banner Section -------------- */
+.banner-section {
+  margin-top: 85px;
+  position: relative;
+  font-family: "Roboto";
+}
+.banner-section .banner {
+  width: 100%;
+}
+.banner-section img {
+  width: 100%;
+  max-height: 300px;
+}
+.banner-section .banner-text {
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  color: white;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-top: 40px;
+}
+.banner-section .banner-text h1 {
+  font-size: 35px;
+  margin-top: 15px;
+}
+.banner-section .banner-text span {
+  color: rgb(255, 45, 45);
+}
+.banner-section .banner-text button {
+  height: 40px;
+  width: 130px;
+  margin: 30px auto;
+  border-radius: 25px;
+  border: none;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.6s;
+}
+.banner-section .banner-text button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.new-arrivals {
+  margin-top: 150px;
+}
+
+/* -------------------------------------------- Footer Section ---------------------------------------------------*/
+footer {
+  background-color: black;
+  height: 300px;
+  margin-top: 250px;
+}
+
+.current {
+  color: rgb(35, 182, 180) !important;
+}
+
+/* -------------------------------------------------- Loading ------------------------------------------------------ */
 .loading {
   position: absolute;
   z-index: 1000;
@@ -829,11 +894,4 @@ a {
 }
 .inactive {
   display: none;
-}
-
-/* -------------------------------------------- Footer Section ---------------------------------------------------*/
-footer {
-  background-color: black;
-  height: 300px;
-  margin-top: 250px;
 }/*# sourceMappingURL=main.css.map */
